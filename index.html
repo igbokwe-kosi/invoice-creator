@@ -1,0 +1,63 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Invoice creator</h1>
+      <h2 class="subhead">Thanks for choosing GoodCorp, LLC!</h2>
+    </header>
+    <main>
+      <div class="buttons">
+        <button class="button" id="wash-car">Wash Car: $10</button>
+        <button class="button" id="mown-lawn">Mow Lawn: $20</button>
+        <button class="button" id="pull-weed">Pull Weeds: $30</button>
+      </div>
+      <div class="tasks">
+        <div class="tasks__header">
+          <h3>Tasks</h3>
+          <h3>Total</h3>
+        </div>
+        <ul class="tasks__list">
+          <!--    
+           <li class="tasks__item">
+            <span class="tasks__desc">
+              Wash Car <button id="remove">remove</button>
+            </span>
+            <span class="tasks__price"><span id="dollar-sign">$</span>10</span>
+          </li>
+          <li class="tasks__item">
+            <span class="tasks__desc">
+              Mow Lawn <button id="remove">remove</button>
+            </span>
+            <span class="tasks__price"><span id="dollar-sign">$</span>20</span>
+          </li>
+          <li class="tasks__item">
+            <span class="tasks__desc">
+              Pull Weed <button id="remove">remove</button>
+            </span>
+            <span class="tasks__price"><span id="dollar-sign">$</span>30</span>
+          </li> 
+        --></ul>
+      </div>
+      <div class="others">
+        <div class="others__header">
+          <h3>notes</h3>
+          <h3>Total amount</h3>
+        </div>
+        <div class="others__info">
+          <p class="others__text">We accept cash, credit card, or PayPal.</p>
+          <p class="total-amount">$0</p>
+        </div>
+      </div>
+      <button class="send-invoice">Send Invoice</button>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
